@@ -1,0 +1,70 @@
+body {
+  background-color: #DFCFBE;
+}
+
+a{
+  color: blue;
+}
+
+.pozadina {
+  background-image: url("toranj.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.pozadina1 {
+  background-image: url("nebo.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.pozadina2 {
+  background-image: url("pripjat.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: 30% 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.tekst {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: orange;
+  text-shadow: 5px 5px 5px grey;
+  font-style: italic;
+  font-size: 300%;
+
+}
+.header {
+  background-color: #cccccc;
+  padding: 1%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

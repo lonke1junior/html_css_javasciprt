@@ -1,0 +1,66 @@
+.div1
+{ display: block;
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 15%;
+  color: black;
+}
+.div1 h2{
+    color: red;
+    text-align: left;
+    margin-left: 25%;
+}
+.div1 img{
+    float: right;
+    display: block;
+    padding: 0%;
+    background-color: red;
+    width: 30%;
+    height: 100%;
+}
+.div2
+{ display: block;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 15%;
+  color: black;
+}
+.div2 h2{
+    color: red;
+    text-align: right;
+    margin-right: 25%;
+}
+.div2 img{
+    float: left;
+    display: block;
+    padding: 0%;
+    background-color: red;
+    width: 20%;
+    height: 100%;
+}
+.div3
+{ display: block;
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: black;
+}
+.div3 h2{
+    color: red;
+    text-align: left;
+    margin-left: 25%;
+    font-style: oblique;
+}
+p{
+  text-align: left;
+  margin-left: 20%;
+  font-style: oblique;
+}
+
+.rotiraj{
+  transform: rotate(90deg);
+}
