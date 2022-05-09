@@ -9,16 +9,26 @@
     <link rel="stylesheet" type="text/css" href="slikadesno.css">
   </head>
   <body>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="naslov.js"></script>
+
     <div class="pozadina">
       <div class="tekst">
+
     <h1>Stranica malih putnika</h1>
+
       </div>
     </div>
+
     <ul>
-      <li><a href="index.html">Naslovna</a></li>
-      <li><a href="planovi.html">Planovi</a></li>
-      <li><a href="omeni.html">Tko sam ja?</a></li>
+
+      <li class="link1"><a href="index.html">Naslovna</a></li>
+      <li class="link1"><a href="planovi.html">Kalkulator</a></li>
+      <li class="link1"><a href="omeni.html">Tko sam ja?</a></li>
+      <script src="mouseMove.js"></script>
     </ul>
+
+
     <div class="div1" id="demo" onclick="myFunction()"><h2>Novi semestar, novo putovanje</h2>
     <img src="vlak.jpg" alt="Vlak za Bled na željezničkom kolodvoru u Zagrebu"
           name="Vlak za Bled na željezničkom kolodvoru u Zagrebu">
@@ -48,8 +58,11 @@
 
     </div>
     <div class="div1"><h2>Berlin - u malom ???</h2>
-    <img src="mjesec.jpg" alt="Berlin"
+<!--    <img src="mjesec.jpg" alt="Berlin"
           name="Berlin" class="rotiraj">
+        Ako se ovo stavi onda se slika rotira za 90°-->
+    <img src="mjesec.jpg" alt="Berlin"
+            name="Berlin">
     Berlin, grad berlinera. Krafna ili ljudi?<br>
     Poznata izjava američkog predsjednika "Ich bin ein Berliner" Kennedyja.<br>
     Iako postoje razni poznati muzeji u Berlinu, svakako preporuka Little Big City. Povijest berlina prikazana u maketama koje su povezane raznim mehanizmima
